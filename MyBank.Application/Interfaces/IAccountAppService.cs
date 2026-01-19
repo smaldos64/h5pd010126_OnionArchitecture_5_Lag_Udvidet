@@ -1,0 +1,19 @@
+﻿using MyBank.Application.DTO;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MyBank.Application.Interfaces
+{
+    public interface IAccountAppService
+    {
+        AccountResponseDTO GetAccount(int id);
+        IEnumerable<AccountResponseDTO> GetAllAccounts();
+        void CreateAccount(CreateAccountRequest request);
+        void Deposit(TransactionRequest request);
+        void Withdraw(TransactionRequest request);
+        void DeleteAccount(int id);
+    }
+}

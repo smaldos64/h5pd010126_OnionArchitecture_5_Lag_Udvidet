@@ -1,0 +1,6 @@
+@MyBank.WebApi.MySQL_HostAddress = http://localhost:5069
+
+GET {{MyBank.WebApi.MySQL_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
