@@ -9,11 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBank.Domain.Services", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBank.Application", "MyBank.Application\MyBank.Application.csproj", "{FE50AD6E-219D-4276-8C74-AABD35F4347E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBank.Infrastructure", "MyBank.Inftastructure\MyBank.Infrastructure.csproj", "{889036A1-ADFB-4048-9BF5-6065766E5277}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBank.Infrastructure", "MyBank.Infrastructure\MyBank.Infrastructure.csproj", "{889036A1-ADFB-4048-9BF5-6065766E5277}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBank.WebApi", "MyBank.WebApi\MyBank.WebApi.csproj", "{1AEE4FB7-195C-40D6-BF72-3F24EF77E82F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBank.WebApi.SQL", "MyBank.WebApi.SQL\MyBank.WebApi.SQL.csproj", "{1AEE4FB7-195C-40D6-BF72-3F24EF77E82F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBank.Infrastructure.Persistence.MySQL", "MyBank_MySql.Infrastructure\MyBank.Infrastructure.Persistence.MySQL.csproj", "{CD13ACC0-4F44-4A0D-8C04-FDEE6FA3731A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBank.Infrastructure.Persistence.MySQL", "MyBank.Infrastructure.Persistence.MySQL\MyBank.Infrastructure.Persistence.MySQL.csproj", "{CD13ACC0-4F44-4A0D-8C04-FDEE6FA3731A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBank.Infrastructure.Persistence.SQL", "MyBank.Infrastructure.Persistence.SQL\MyBank.Infrastructure.Persistence.SQL.csproj", "{57BD0321-F39D-417D-B8F4-E88F49E34A93}"
 EndProject

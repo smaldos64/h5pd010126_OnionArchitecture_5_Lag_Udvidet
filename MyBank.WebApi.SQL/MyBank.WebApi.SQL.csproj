@@ -25,8 +25,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MyBank.Application\MyBank.Application.csproj" />
-    <ProjectReference Include="..\MyBank.Infrastructure.Persistence.SQL\MyBank.Infrastructure.Persistence.SQL.csproj" />
-    <ProjectReference Include="..\MyBank.Inftastructure\MyBank.Infrastructure.csproj" />
+    <ProjectReference Include="..\MyBank.Infrastructure\MyBank.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
