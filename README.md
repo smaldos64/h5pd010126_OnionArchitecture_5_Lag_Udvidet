@@ -1,20 +1,19 @@
-# OnionArchitecture\_5\_Lag
+# OnionArchitecture\_5\_Lag_Udvidet
 
+For at få lavet de 2 nødvendige Databaser, skal man gøre som følger, når man står i Package Manger Console vinduet.:
 
+1) For at få lavet (MsSQL) Databasen.
 
-For at lave en Migration på projektet kan man bruge denne kommando i Package Manager Console vinduet for at være sikker på, at det rigtige Migrations projekt er valgt. 
+Add-Migration "NavnHer" -Project MyBank.Infrastructure.Persistence.SQL -StartupProject MyBank.WebApi.SQL
 
-Og det rigtige projekt der indeholder Connectionstring til Databasen er valgt. 
+Og når man efterfølgende skal lave Databasen kan man bruge denne kommando:
 
+Update-Database -Project MyBank.Infrastructure.Persistence.SQL -StartupProject MyBank.WebApi.SQL
 
+2) For at få lavet (MySQL) Databasen for Audit Web Api'et.
 
-**Add-Migration "NavnHer" -Project MyBank.Infrastructure -StartupProject MyBank.WebApi**
+Add-Migration "NavnHer" -Project Audit.Infrastructure -StartupProject Audit.WebApi
 
+Og når man efterfølgende skal lave Databasen kan man bruge denne kommando:
 
-
-Og når man efterfølgende skal lave Databasen kan man bruge denne kommando i Package Manager Console vinduet:
-
-
-
-**Update-Database -Project MyBank.Infrastructure -StartupProject MyBank.WebApi**
-
+Update-Database -Project Audit.Infrastructure -StartupProject Audit.WebApi
